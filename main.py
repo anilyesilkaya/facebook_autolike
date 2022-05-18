@@ -12,8 +12,7 @@ def main():
     url = "https://www.facebook.com/groups/1219950278020463?sorting_setting=CHRONOLOGICAL" # any Facebook URL
     webbrowser.open_new_tab(url) # open a new tab
     # RUN WHILE LOOP 
-    #while True:
-    if True:
+    while True:
         time.sleep(8.0) # to pause
         keyboard.press('j')
         keyboard.release('j')
